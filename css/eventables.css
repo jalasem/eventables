@@ -312,7 +312,7 @@ input.login_handles::placeholder {
 
 #blog-splash {
     position: fixed;
-    overflow-y: visible;
+    overflow-y: scroll;
     top: 0;
     left: 0;
     width: 100%;
