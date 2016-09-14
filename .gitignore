@@ -9,6 +9,10 @@ database.rules.json
 firebase.json
 firebase-debug.log
 *.php
+.gitattributes
+.gitignore
+*trash
+
 
 # Folder config file
 Desktop.ini
