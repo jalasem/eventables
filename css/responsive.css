@@ -1,0 +1,40 @@
+/*Desktop Devices*/
+@media screen and (min-width: 992px) {
+
+}
+
+/*Tablet Devices*/
+@media screen and (max-width: 991px) {
+  .eventables-sub-slogan {
+      padding-top: 10rem;
+  }
+  .eventables-sub-slogan h1 {
+    font-size: 5rem;
+  }
+  .eventables-sub-slogan h5, h4 {
+      padding: 1px 0.6em;
+      font-size: 2rem;
+      margin-bottom: -1em;
+  }
+  header {
+    height: 35rem;
+  }
+}
+
+/*Mobile Devices*/
+@media screen and (max-width:601px) {
+  .eventables-sub-slogan h1 {
+      font-size: 3rem;
+  }
+  .eventables-sub-slogan h5, h4 {
+      padding: 1px 0.6em;
+      font-size: 2rem;
+      margin-bottom: -1em;
+  }
+  .eventables-sub-slogan {
+      padding-top: 6rem;
+  }
+  header {
+    height: 30rem;
+  }
+}
