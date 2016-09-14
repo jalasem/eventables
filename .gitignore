@@ -11,7 +11,8 @@ firebase-debug.log
 *.php
 .gitattributes
 .gitignore
-*trash
+trash.html
+blog/
 
 
 # Folder config file
