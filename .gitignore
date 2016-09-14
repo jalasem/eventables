@@ -2,6 +2,14 @@
 Thumbs.db
 ehthumbs.db
 
+.vscode
+.brackets.json
+database.rules.json
+.firebaserc
+firebase.json
+firebase-debug.log
+*.php
+
 # Folder config file
 Desktop.ini
 
