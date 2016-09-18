@@ -13,6 +13,7 @@ firebase-debug.log
 .gitignore
 trash.html
 blog/
+*demo*
 
 
 # Folder config file
