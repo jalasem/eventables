@@ -39,27 +39,6 @@ $(document).ready(function () {
     $('#blog-splash').addClass('hide');
   });
 });
-
-$("header#souvenir").vegas({
-  slides: [
-    { src: "images/souvenir.jpg" },
-    { src: "images/souvenir1.jpg" },
-    { src: "images/weddingFavour.jpg" },
-    { src: "images/carGifts.jpg" }
-  ],
-  // transition : randomTransition()
-  transition: ['fade', 'swirlRight', 'swirlLeft', 'blur', 'flash', 'zoomIn', 'zoomOut'],
-  animation: ['kenburnsUp', 'kenburnsDown', 'kenburnsLeft', 'kenburnsRight']
-});
-
-$("header#decoration").vegas({
-  slides: [
-    { src: "images/gci11.jpg" },
-    { src: "images/IMG-20151201-WA0016.jpg" },
-    { src: "images/wide_area.jpg" },
-    { src: "images/somedeco.jpg" }
-  ],
-  // transition : randomTransition()
-  transition: ['fade', 'swirlRight', 'swirlLeft', 'blur', 'flash', 'zoomIn', 'zoomOut'],
-  animation: ['kenburnsUp', 'kenburnsDown', 'kenburnsLeft', 'kenburnsRight']
+$(document).ready(function () {
+  $('.slider').slider({ height:580 });
 });
